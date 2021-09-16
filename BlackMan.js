@@ -20,8 +20,8 @@ const dateFormat = require("dateformat");
 var table = require("table").table;
 const Discord = require("discord.js");
 const cmd = require("node-cmd");
-const prefix = ">";
-client.login("");
+const prefix = "PREFIX LERA DABNE";
+client.login("TOKEN LERA DABNE");
 client.on("ready", async () => {
   console.log(`Logged in as ${client.user.username}!`);
   client.user.setStatus("idle");
@@ -64,7 +64,7 @@ client.on("message", async message => {
 ━──╮•╭──━
 
 __ [Vote](link top gg) __  
-__ [invite](https://discord.com/api/oauth2/authorize?client_id=829039166141890631&permissions=8&scope=bot) __  __ [Support](https://discord.gg/kxFvrqV9Qu) __
+__ [invite](https://discord.com/api/oauth2/authorize?client_id=884137061282639942&permissions=0&scope=bot) __  __ [Support](https://discord.gg/msrPc36PSX) __
 
 `);
     message.channel.send(help);
@@ -1237,7 +1237,7 @@ client.on("message", async message => {
 client.on("message", message => {
   if (message.content.startsWith(prefix + "support")) {
     const embed = new Discord.MessageEmbed()
-      .setDescription(`[Support](https://discord.gg/)`)
+      .setDescription(`[Support](https://discord.gg/msrPc36PSX)`)
       .setTimestamp()
       .setFooter(`By: ${message.author.tag}`)
       .setAuthor(client.user.username)
